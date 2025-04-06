@@ -19,7 +19,6 @@ class Player {
     if (keys["ArrowUp"]) this.y -= this.speed;
     if (keys["ArrowDown"]) this.y += this.speed;
 
-    // Boundaries
     this.x = Math.max(0, Math.min(width, this.x));
     this.y = Math.max(height - 160, Math.min(height, this.y));
 
